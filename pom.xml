@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>DocumentDb-SpringReadNodes</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Load balanc</name>
+    <name>DocumentDb-SpringReadNodes</name>
     <description>DocumentDb-SpringReadNodes</description>
     <properties>
         <java.version>11</java.version>
