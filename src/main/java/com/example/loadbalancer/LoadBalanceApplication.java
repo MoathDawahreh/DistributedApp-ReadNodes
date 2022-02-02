@@ -30,7 +30,7 @@ import java.net.http.HttpResponse;
             HttpClient client = HttpClient.newHttpClient();
 
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create("http://localhost:9090/DocumentDB-1.0-SNAPSHOT/Master"))
+                    .uri(URI.create("http://127.0.0.1:9090/DocumentDB-1.0-SNAPSHOT/Master"))
                     .header("Authorization", "redOnly")
                     //  .header("Authorization", basicAuth("username", "password"))
 
