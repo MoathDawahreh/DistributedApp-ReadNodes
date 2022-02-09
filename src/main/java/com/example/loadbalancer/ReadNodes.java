@@ -8,19 +8,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 import java.util.List;
 
 
 @SpringBootApplication
 @RequestMapping("/reader")
 @RestController
-public class LoadBalanceApplication {
+public class ReadNodes {
     @Value("${server.port}")
     private String port;
 
@@ -33,14 +27,14 @@ public class LoadBalanceApplication {
 
         //   out.println(companies);
         //   return "application is up on port : " + port + response.body();
-        return "Reading from node/ port : " + port
-                + "<br> <br>" + companies;
+        return "Reading from the node on port: " + port
+                + "<br>" + companies;
 
 
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(LoadBalanceApplication.class, args);
+        SpringApplication.run(ReadNodes.class, args);
     }
 
 }

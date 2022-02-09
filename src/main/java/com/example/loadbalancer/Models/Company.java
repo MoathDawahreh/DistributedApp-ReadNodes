@@ -2,7 +2,7 @@ package com.example.loadbalancer.Models;
 
 public class Company {
     private String companyName;
-    private  String numberOfStaff;
+    private String numberOfStaff;
     private String website;
 
 
@@ -11,7 +11,8 @@ public class Company {
         this.numberOfStaff = numberOfStaff;
         this.website = website;
     }
-    public void update(){
+
+    public void update() {
         System.out.println("A company were added :)");
     }
 
