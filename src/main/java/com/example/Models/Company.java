@@ -1,4 +1,4 @@
-package com.example.loadbalancer.Models;
+package com.example.Models;
 
 public class Company {
     private String companyName;

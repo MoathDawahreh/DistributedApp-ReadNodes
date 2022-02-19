@@ -1,6 +1,6 @@
-package com.example.loadbalancer.DB;
+package com.example.DB;
 
-import com.example.loadbalancer.Models.Company;
+import com.example.Models.Company;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
